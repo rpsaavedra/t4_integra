@@ -1,0 +1,863 @@
+
+
+Started GET "/" for ::1 at 2016-06-16 03:10:11 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (6.5ms)
+Completed 200 OK in 190ms (Views: 123.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:10:20 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/te_cuatro/app/controllers/api_controller.rb:48: syntax error, unexpected ')', expecting =>
+/home/doge/integracion/t4_integra/te_cuatro/app/controllers/api_controller.rb:66: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/api_controller.rb:48: syntax error, unexpected ')', expecting =>
+  app/controllers/api_controller.rb:66: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (136.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (282.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (630.8ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:13:43 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/te_cuatro/app/controllers/api_controller.rb:65: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/api_controller.rb:65: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (35.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (82.7ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:14:12 -0300
+
+LoadError (cannot load such file -- google/apis/calendar_v3):
+  app/controllers/api_controller.rb:2:in `<class:ApiController>'
+  app/controllers/api_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (10.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (79.3ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:14:48 -0300
+
+LoadError (cannot load such file -- ../google/apis/calendar_v3):
+  app/controllers/api_controller.rb:2:in `<class:ApiController>'
+  app/controllers/api_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (80.2ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:14:50 -0300
+
+LoadError (cannot load such file -- ../google/apis/calendar_v3):
+  app/controllers/api_controller.rb:2:in `<class:ApiController>'
+  app/controllers/api_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (76.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:17:42 -0300
+Processing by ApiController#algo as HTML
+Completed   in 36017ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:21:20 -0300
+Processing by ApiController#algo as HTML
+Completed   in 110651ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:23:19 -0300
+Processing by ApiController#algo as HTML
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=71185825138-77opnrv60cp7m8tba68cp866j0riuq7a.apps.googleusercontent.com&include_granted_scopes=true&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&scope=https://www.googleapis.com/auth/calendar.readonly with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/doge/integracion/t4_integra/te_cuatro/app/views"
+):
+  app/controllers/api_controller.rb:30:in `authorize'
+  app/controllers/api_controller.rb:44:in `algo'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (61.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.6ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:25:55 -0300
+Processing by ApiController#algo as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=71185825138-77opnrv60cp7m8tba68cp866j0riuq7a.apps.googleusercontent.com&include_granted_scopes=true&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&scope=https://www.googleapis.com/auth/calendar.readonly
+Completed   in 160502ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:28:44 -0300
+Processing by ApiController#algo as HTML
+Redirected to 
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/api_controller.rb:33:in `authorize'
+  app/controllers/api_controller.rb:47:in `algo'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (94.8ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:29:57 -0300
+Processing by ApiController#algo as HTML
+Redirected to 
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/api_controller.rb:33:in `authorize'
+  app/controllers/api_controller.rb:47:in `algo'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (4.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (99.2ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:30:13 -0300
+Processing by ApiController#algo as HTML
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `add_path' for #<ApiController:0x007f63800be880>):
+  app/controllers/api_controller.rb:33:in `authorize'
+  app/controllers/api_controller.rb:47:in `algo'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.4ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:30:36 -0300
+Processing by ApiController#algo as HTML
+Redirected to http://localhost:3000api/add
+Completed   in 20775ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:31:14 -0300
+Processing by ApiController#algo as HTML
+Redirected to http://localhost:3000/api/add
+Completed   in 20348ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:32:06 -0300
+Processing by ApiController#algo as HTML
+Redirected to http://localhost:3000/api/add
+Completed   in 67655ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:33:23 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/primary/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/primary/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 972ms>
+Success - #<Google::Apis::CalendarV3::Events:0x0000000484e5c8
+ @access_role="owner",
+ @default_reminders=
+  [#<Google::Apis::CalendarV3::EventReminder:0x000000048421d8
+    @minutes=30,
+    @reminder_method="popup">],
+ @etag="\"1466058810543000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="tecuatrointegra@gmail.com",
+ @time_zone="UTC",
+ @updated=Thu, 16 Jun 2016 06:33:30 +0000>
+
+Completed 500 Internal Server Error in 5995ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template api/algo, application/algo with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/doge/integracion/t4_integra/te_cuatro/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (32.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (13.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (8.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (86.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (153.8ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:41:23 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 1008ms>
+Success - #<Google::Apis::CalendarV3::Events:0x000000047283b0
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059081689000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:38:01 +0000>
+
+Completed 500 Internal Server Error in 1059ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template api/algo, application/algo with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/doge/integracion/t4_integra/te_cuatro/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (56.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (69.6ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:42:31 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 762ms>
+Success - #<Google::Apis::CalendarV3::Events:0x0000000354fd00
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059338202000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:42:18 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3968ms (Views: 3163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-16 03:42:35 -0300
+
+
+Started GET "/assets/api.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-16 03:42:35 -0300
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:47:03 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 349ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000004913cd8
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059338202000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:42:18 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 476ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:48:20 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 359ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f25c1ac40e8
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059338202000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:42:18 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 498ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:49:26 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 359ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f25c2675130
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059338202000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:42:18 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 476ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:49:28 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 348ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f25bcabfa20
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059338202000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:42:18 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 458ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:50:37 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (1934 bytes) 364ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f25bcde2810
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059818206000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x007f25bcdfa140
+    @created=Thu, 16 Jun 2016 06:50:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f25bce01b48
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bce0b990
+      @date="2016-06-17">,
+    @etag="\"2932119627866000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cnU0OWVsMmNwN3AxajhvanFkZmhpZDFpdW8gYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="ru49el2cp7p1j8ojqdfhid1iuo@google.com",
+    @id="ru49el2cp7p1j8ojqdfhid1iuo",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f25bce0ea00
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f25bce17a60
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bce15a80
+      @date="2016-06-16">,
+    @status="confirmed",
+    @summary="fvcca",
+    @transparency="transparent",
+    @updated=Thu, 16 Jun 2016 06:50:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f25bce1e310
+    @created=Thu, 16 Jun 2016 06:50:18 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f25bce21d30
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bce2bb78
+      @date="2016-06-18">,
+    @etag="\"2932119636156000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=djV0bnMzNWJkbmV0bzFsZWhkOW40ZTB1YW8gYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="v5tns35bdneto1lehd9n4e0uao@google.com",
+    @id="v5tns35bdneto1lehd9n4e0uao",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f25bce32bf8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f25bce37c48
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bce35c68
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="sccxx",
+    @transparency="transparent",
+    @updated=Thu, 16 Jun 2016 06:50:18 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:50:18 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 477ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:51:15 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (3593 bytes) 369ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f25bd1b9448
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059866141000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x007f25bd1eb830
+    @created=Thu, 16 Jun 2016 06:50:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f25bd1f3260
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd1f10f0
+      @date="2016-06-17">,
+    @etag="\"2932119627866000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cnU0OWVsMmNwN3AxajhvanFkZmhpZDFpdW8gYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="ru49el2cp7p1j8ojqdfhid1iuo@google.com",
+    @id="ru49el2cp7p1j8ojqdfhid1iuo",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f25bd1f8170
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f25bd1fd1e8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd2071c0
+      @date="2016-06-16">,
+    @status="confirmed",
+    @summary="fvcca",
+    @transparency="transparent",
+    @updated=Thu, 16 Jun 2016 06:50:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f25bd20fa78
+    @created=Thu, 16 Jun 2016 06:51:03 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f25bd2134c0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd211350
+      @date="2016-06-18">,
+    @etag="\"2932119726904000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Nmx0ZDNkNWMyNHRvOWdpdTlmZm5wbTByb2sgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="6ltd3d5c24to9giu9ffnpm0rok@google.com",
+    @id="6ltd3d5c24to9giu9ffnpm0rok",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f25bd2183d0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f25bd221430
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd227420
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="vsczxc x",
+    @transparency="transparent",
+    @updated=Thu, 16 Jun 2016 06:51:03 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f25bd22fcd8
+    @created=Thu, 16 Jun 2016 06:50:18 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f25bd237708
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd235598
+      @date="2016-06-18">,
+    @etag="\"2932119636156000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=djV0bnMzNWJkbmV0bzFsZWhkOW40ZTB1YW8gYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="v5tns35bdneto1lehd9n4e0uao@google.com",
+    @id="v5tns35bdneto1lehd9n4e0uao",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f25bd238630
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f25bd241690
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd247658
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="sccxx",
+    @transparency="transparent",
+    @updated=Thu, 16 Jun 2016 06:50:18 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f25bd24ff10
+    @created=Thu, 16 Jun 2016 06:51:06 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f25bd257940
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd2557d0
+      @date="2016-06-19">,
+    @etag="\"2932119732102000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NnBpMjZrOW9mZWZxb2o2OTVmZXAyb2U4b3MgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="6pi26k9ofefqoj695fep2oe8os@google.com",
+    @id="6pi26k9ofefqoj695fep2oe8os",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f25bd258840
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f25bd2618a0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f25bd267868
+      @date="2016-06-18">,
+    @status="confirmed",
+    @summary="sdcx ",
+    @transparency="transparent",
+    @updated=Thu, 16 Jun 2016 06:51:06 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:51:06 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 522ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/algo" for ::1 at 2016-06-16 03:52:14 -0300
+Processing by ApiController#algo as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (277 bytes) 353ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f25c2707990
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466059927375000\"",
+ @items=[],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Thu, 16 Jun 2016 06:52:07 +0000>
+
+  Rendered api/algo.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 447ms (Views: 39.7ms | ActiveRecord: 0.0ms)
