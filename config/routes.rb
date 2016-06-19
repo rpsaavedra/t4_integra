@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'api/add'
 
-  get 'api/remove'
+  post 'api/remove'
 
   get 'api/algo' => 'api#algo'
 
