@@ -2163,3 +2163,9 @@ Started GET "/api/remove" for ::1 at 2016-06-19 00:47:35 -0300
 Processing by ApiController#remove as HTML
   Rendered api/remove.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 1001ms (Views: 1000.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 00:53:34 -0300
+Processing by ApiController#remove as HTML
+  Rendered api/remove.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 545ms (Views: 519.6ms | ActiveRecord: 0.0ms)
