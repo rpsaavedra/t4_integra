@@ -42,7 +42,8 @@ end
     require "slack"
 
 Slack.configure do |config|
-  config.token = "xoxb-52247322450-fQWK7qfDZrBLXhAIIuwLtiFU"
+  config.token = "xoxb-52247322450-C9O2cIBCfUZ004VlwvmPjHpj"
+  
 end
 
 
