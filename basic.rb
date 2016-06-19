@@ -1,7 +1,7 @@
 require "slack"
 
 Slack.configure do |config|
-  config.token = "xoxb-52247322450-o0rkP2VSiHZSsBcHgMbMzafk"
+  config.token = "xoxb-52247322450-zJW8iLrIPFMHfg6FD4tXbhWE"
 end
 
 
