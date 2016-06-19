@@ -42,7 +42,7 @@ end
     require "slack"
 
 Slack.configure do |config|
-  config.token = "xoxb-52247322450-zJW8iLrIPFMHfg6FD4tXbhWE"
+  config.token = "xoxb-52247322450-fQWK7qfDZrBLXhAIIuwLtiFU"
 end
 
 
@@ -62,9 +62,10 @@ client.on :message do |data|
   end
 end
 
-
+puts "aaaaaaaaaaaaaaaaaa"
 
 client.start!
+puts "oooooooooooooooooooooooooollllllllllllllllll"
   end
 
 

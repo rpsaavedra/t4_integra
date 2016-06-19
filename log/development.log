@@ -2169,3 +2169,40 @@ Started GET "/api/remove" for ::1 at 2016-06-19 00:53:34 -0300
 Processing by ApiController#remove as HTML
   Rendered api/remove.html.erb within layouts/application (1.2ms)
 Completed 200 OK in 545ms (Views: 519.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 01:03:17 -0300
+Processing by ApiController#remove as HTML
+Completed   in 40475ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 01:18:03 -0300
+Processing by ApiController#remove as HTML
+Completed 500 Internal Server Error in 765ms (ActiveRecord: 0.0ms)
+
+Slack::Web::Api::Error (invalid_auth):
+  app/controllers/api_controller.rb:67:in `remove'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (30.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (81.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (6.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (145.4ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 01:19:00 -0300
+Processing by ApiController#remove as HTML
+Completed   in 27183ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 01:20:08 -0300
+Processing by ApiController#remove as HTML
+Completed   in 38608ms (ActiveRecord: 0.0ms)
