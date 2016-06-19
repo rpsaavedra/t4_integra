@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'slack-ruby-client', '~> 0.1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'google-api-client'
 
+gem "http"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
