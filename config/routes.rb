@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'api/create'
+  get 'api/create/:id' => 'api#create'
 
   get 'api/add'
 
