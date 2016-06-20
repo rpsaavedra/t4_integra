@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'api/add'
 
   get 'api/remove'
+  get 'api/authorize' => 'api#authorize'
 
   get 'api/algo' => 'api#algo'
 
