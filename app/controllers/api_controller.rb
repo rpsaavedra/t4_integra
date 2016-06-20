@@ -9,7 +9,7 @@ require 'fileutils'
 
 @urlx=""
 
-totoken = ENV['TOKEN_SLACK']
+
 
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Google Calendar API Ruby Quickstart'
@@ -76,9 +76,14 @@ end
   end
 
   def create
+ 
 
+  @algo= ENV['TOKEN_SLACK']
    
-   
+    end
+
+    def lol
+      return @toto
     end
   
 
