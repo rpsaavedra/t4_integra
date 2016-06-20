@@ -77,8 +77,7 @@ end
 
   def create
 
-    response = {:promociones => totoken}
-    render:json => response 
+   
    
     end
   
