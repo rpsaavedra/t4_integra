@@ -9,6 +9,8 @@ require 'fileutils'
 
 @urlx=""
 
+totoken = ENV['TOKEN_SLACK']
+
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Google Calendar API Ruby Quickstart'
 CLIENT_SECRETS_PATH = 'client_secret.json'
@@ -74,37 +76,10 @@ end
   end
 
   def create
-    service = Google::Apis::CalendarV3::CalendarService.new
-  
-    service.client_options.application_name = APPLICATION_NAME
 
-    service.authorization = authorize
-        
-    event = Google::Apis::CalendarV3::Event.new(
-      summary: 'Google I/O 2015',
-      location: '800 Howard St., San Francisco, CA 94103',
-      description: 'A chance to hear more about Google\'s developer products.',
-      start: {
-        date_time: '2016-06-28T09:00:00-07:00',
-        time_zone: 'America/Santiago',
-      },
-      end: {
-        date_time: '2016-06-28T17:00:00-07:00',
-        time_zone: 'America/Santiago',
-      },
-      recurrence: [
-        'RRULE:FREQ=DAILY;COUNT=2'
-      ],
-      attendees: [
-        {email: 'lpage@example.com'},
-        {email: 'sbrin@example.com'},
-      ]
-    )
-
-
-
-result = service.insert_event('avv8qa6cq84060r3nd2teussls@group.calendar.google.com', event)
-puts "Event created: #{result.html_link}"
+    response = {:promociones => totoken}
+    render:json => response 
+   
     end
   
 
@@ -146,8 +121,8 @@ puts "Event created: #{result.html_link}"
     require "slack"
 
 Slack.configure do |config|
-  config.token = ENV['TOKEN_SLACK']
- 
+  config.token = totoken
+  config.token = "xoxb-52247322450-Rr3nmV74dtS0zs6EDAv1GR8O"
 end
 
 
