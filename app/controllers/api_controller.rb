@@ -85,7 +85,7 @@ end
     token_store = Google::Auth::Stores::FileTokenStore.new(file: CREDENTIALS_PATH)
     authorizer = Google::Auth::UserAuthorizer.new(
       client_id, SCOPE, token_store)
-    user_id = 'jiji'
+    user_id = 'loolff'
     credentials = authorizer.get_credentials(user_id)
   if credentials.nil?
     
