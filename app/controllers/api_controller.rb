@@ -23,7 +23,7 @@ def authorize
   token_store = Google::Auth::Stores::FileTokenStore.new(file: CREDENTIALS_PATH)
   authorizer = Google::Auth::UserAuthorizer.new(
     client_id, SCOPE, token_store)
-  user_id = 'default'
+  user_id = 'loolff'
   credentials = authorizer.get_credentials(user_id)
   if credentials.nil?
     url = authorizer.get_authorization_url(
@@ -65,8 +65,8 @@ end
 
     response.items.each do |event|
       start = event.start.date || event.start.date_time
-      @hola= "- #{event.summary} (#{start})"
-      eventos.push
+      hola= "- #{event.summary} (#{start})"
+      eventos.push(event)
       puts "- #{event.summary} (#{start})"
 
     end
@@ -74,29 +74,71 @@ end
   end
 
   def create
+    service = Google::Apis::CalendarV3::CalendarService.new
+  
+    service.client_options.application_name = APPLICATION_NAME
 
-    eventos = algo()
+    service.authorization = authorize
+        
+    event = Google::Apis::CalendarV3::Event.new(
+      summary: 'Google I/O 2015',
+      location: '800 Howard St., San Francisco, CA 94103',
+      description: 'A chance to hear more about Google\'s developer products.',
+      start: {
+        date_time: '2016-06-28T09:00:00-07:00',
+        time_zone: 'America/Santiago',
+      },
+      end: {
+        date_time: '2016-06-28T17:00:00-07:00',
+        time_zone: 'America/Santiago',
+      },
+      recurrence: [
+        'RRULE:FREQ=DAILY;COUNT=2'
+      ],
+      attendees: [
+        {email: 'lpage@example.com'},
+        {email: 'sbrin@example.com'},
+      ]
+    )
 
-    eventos.each do |ev|
-      lient.message channel: data['channel'], text: "<@#{data['user']}>! :"+ev
+
+
+result = service.insert_event('avv8qa6cq84060r3nd2teussls@group.calendar.google.com', event)
+puts "Event created: #{result.html_link}"
     end
   
 
-  end
-
   def add
-     page_token = nil
-  begin
-    result = client.list_events('avv8qa6cq84060r3nd2teussls@group.calendar.google.com')
-    result.items.each do |e|
-      print e.summary + "\n"
-    end
-    if result.next_page_token != page_token
-      page_token = result.next_page_token
-    else
-      page_token = nil
-    end
-  end while !page_token.nil?
+    #scopes =  ['https://www.googleapis.com/auth/calendar']
+    #authorization = Google::Auth.get_application_default("https://www.googleapis.com/auth/calendar")
+
+    # Clone and set the subject
+    #auth_client = authorization.dup
+    #auth_client.sub = 'user@example.org'
+
+
+    service = Google::Apis::CalendarV3::CalendarService.new
+    service.authorization = authorize
+    event = Google::Apis::CalendarV3::Event.new(
+      summary: 'Google I/O 2015',
+      location: '800 Howard St., San Francisco, CA 94103',
+      description: 'A chance to hear more about Google\'s developer products.',
+      start: {
+        date_time: '2016-06-28T09:00:00-07:00',
+        time_zone: 'America/Santiago',
+      },
+      end: {
+        date_time: '2016-06-28T17:00:00-07:00',
+        time_zone: 'America/Santiago',
+      },
+      recurrence: [
+        'RRULE:FREQ=DAILY;COUNT=2'
+      ]
+    )
+
+
+    result = service.insert_event('avv8qa6cq84060r3nd2teussls@group.calendar.google.com', event)
+    puts "Event created: #{result.html_link}"
 
   end
 
@@ -105,7 +147,7 @@ end
 
 Slack.configure do |config|
   config.token = ENV['TOKEN_SLACK']
-  
+ 
 end
 
 
@@ -117,13 +159,22 @@ end
 
 
 client.on :message do |data|
-  eventos = algo()
+  
 
   case data['text']
-  when 'bot hi' then
+  when 'eventos?' then
+    eventos = algo()
+    puts "hahahah"
     eventos.each do |ev|
-      lient.message channel: data['channel'], text: "<@#{data['user']}>! :"+ev
+      start = ev.start.date || ev.start.date_time
+      hola= "- #{ev.summary} (#{start})"
+      client.message channel: data['channel'], text: "<@#{data['user']}>! :"+hola
     end
+  when 'url?' then
+    client.message channel: data['channel'], text: "<@#{data['user']}>, https://calendar.google.com/calendar/embed?src=avv8qa6cq84060r3nd2teussls%40group.calendar.google.com&ctz=America/Santiago"
+  when 'crear' then
+    add
+    client.message channel: data['channel'], text: " <@#{data['user']}>, Listoco"
   when /^bot/ then
     client.message channel: data['channel'], text: "Sorry <@#{data['user']}>, what?"
   end

@@ -2820,3 +2820,4013 @@ Success - #<Google::Apis::CalendarV3::Events:0x007f4d05c9b338
 
   Rendered api/create.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 947ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 22:59:46 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 396ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000005135df8
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x000000050f46a0
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000050e2a68
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000050e0150
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000050c0878
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000509f038
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005093418
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000508a480
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000504fe20
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000504cbd0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000500b518
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004ff72c0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004fe7b90
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004fcbc10
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004fc1c88
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004fb2878
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004f75ea0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004f665e0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004f576f8
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004f3b0c0
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004f0be88
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004f08dc8
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004ebb2d0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004e99f18
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004e76a18
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004e6c3b0
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004e2d188
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004dfbd18
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004df1f70
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004dd11d0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004db5200
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 364ms>
+Success - #<Google::Apis::CalendarV3::Events:0x000000036d7d08
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000003655bc8
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000360cec8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003604278
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000035a02a0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003553130
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000353ebe0
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000035055e8
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000034c72c0
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003491170
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000002a69698
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002971088
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000028fec68
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000023049c0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000021eccb8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000216df30
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000001fd79c8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000001e44d18
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000001c497e8
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000001e10810
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000002016100
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000021def50
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000022f0ce0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002991b58
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000028f6d88
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000346e080
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000034d4f60
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000034a9568
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000034ed7b8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000355fed0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000035473d0
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed   in 181848ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:02:57 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 402ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000004bfc418
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000004bc0210
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004baece0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004b9ab78
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004b7c858
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004b577d8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004b55208
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004b48b70
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004b17278
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004b0a320
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004abb8b0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004aa6988
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004a871a0
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004a7dfb0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004a4db08
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004a26710
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004a0cb58
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000049ef9b8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000049ec268
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000049b0678
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000496fe48
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004952e60
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004918ee0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000048fa620
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000048e2e30
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000048b7d48
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000487f768
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004873be8
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004848308
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004827360
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000480f878
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed 500 Internal Server Error in 9699ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `lient' for #<ApiController:0x0000000322e4f0>):
+  app/controllers/api_controller.rb:126:in `block (2 levels) in remove'
+  app/controllers/api_controller.rb:125:in `each'
+  app/controllers/api_controller.rb:125:in `block in remove'
+  app/controllers/api_controller.rb:135:in `remove'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (5.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (70.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:04:09 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 352ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000002724078
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x000000026e9090
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000026ba600
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000026a0ef8
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000002657be0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002641840
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002636a08
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000260f3e0
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000001e1ad38
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000001dcf180
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000001b4fd38
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000019e47a0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000001971bd8
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000051b1458
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000519fa00
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000519be78
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005191f18
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000518afd8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005187748
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000051811e0
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000051799b8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005175e30
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000516ba98
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000051634b0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000515d240
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000051565a8
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000513db20
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000514b838
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005131d98
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000511f1c0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000511a1e8
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed 500 Internal Server Error in 8743ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Google::Apis::CalendarV3::Event into String):
+  app/controllers/api_controller.rb:126:in `+'
+  app/controllers/api_controller.rb:126:in `block (2 levels) in remove'
+  app/controllers/api_controller.rb:125:in `each'
+  app/controllers/api_controller.rb:125:in `block in remove'
+  app/controllers/api_controller.rb:135:in `remove'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.5ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:04:44 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 354ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000004579578
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x0000000455c928
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000453fc88
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004517030
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004509868
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004503300
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000044f8a68
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000044c2850
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000044b9ca0
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000044b6320
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000044acdc0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000044a7c08
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000044a4940
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000449fcb0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000044980a0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004381338
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004378f58
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003972b08
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003966420
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000039479a8
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003918360
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003911920
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000038d8fd0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000038bf3f0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000038ab7b0
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000387f638
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003699cd8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003677160
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003633960
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003607860
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000035d7890
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 430ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f93f56d2708
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x007f93f56ee340
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f5717f88
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5715e18
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f571af30
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000005197f08
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f571fad0
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f571c3d0
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f5725e08
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000518e7f0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f5728040
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f572f5c0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f572d5e0
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000051846b0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000005183a30
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000051803a8
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000517e8c8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f57425f8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5740618
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f574b400
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000051760d8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f574eb28
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f5757a48
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f5754af0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000516d640
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f5759528
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f5762ce0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5760b70
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f57649a0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f576f0f8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f576d118
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 497ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f93e4006e58
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x007f93f5bbae00
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f5bc7da8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5bc5c38
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f5bca4b8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000500de08
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5bd2cf8
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004ffa8a8
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f5bd5098
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004ff1708
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004fe7758
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f5be7248
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5be5268
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004fd84d8
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004fc7a20
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004fc4168
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004fc2660
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f5bf6950
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5bf4970
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004fb80c0
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004fb38e0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5c03ba0
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004faa2e0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f5c0a7e8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5c08808
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f5c13a00
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004f8ae90
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004f88140
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004f7a5e0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f5c1e540
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f5c1c560
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 576ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f93f6056270
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x007f93f60858e0
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004dfc768
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f6092158
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f609ba78
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f6098b20
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004df1fe8
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f609d148
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f60a6568
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60a4100
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f60a9600
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004de1288
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60b2d18
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004ddb950
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f60b89c0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60bf400
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004dd1b58
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f60c6110
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60c4130
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f60cb3b8
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004dba548
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60d32e8
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004da9978
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f60d61c8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60d41e8
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f60de918
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004d94a00
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60e26a8
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f60eb668
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f60e8710
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f60f3e08
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 477ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f93f648c0b0
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000004c2ed28
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f64f1078
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004c26a60
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f64f5290
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004c21808
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f64ff1c8
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004c1f800
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f65063d8
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004c1be30
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f650ce18
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f6513650
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f6511670
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004c05ab8
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f6514e38
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004bfd700
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f6518240
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f651f2c0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f651d2e0
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004bf0320
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004bc7bc8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f6523be0
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004bc2768
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f6527308
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f6525328
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004bbd330
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f652ca38
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004bb5f40
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f6530b10
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f6537e88
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f6535ea8
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 418ms>
+Success - #<Google::Apis::CalendarV3::Events:0x007f93f68b7bf8
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x007f93f68da298
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f68dfcc0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f68ddb50
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f68e29c0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004a4f458
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004a4d428
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f68e88e8
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f68edcf8
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004a26fd0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004a23ba0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f68f7690
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f68f56b0
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f68fbfb0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004a133e0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f68ff868
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004a0c6d0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f6901488
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004a063c0
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x007f93f6905a38
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f690f470
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f690d300
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x007f93f6911e28
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000049ee388
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x007f93f691b0b8
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000049debe0
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x007f93f691d160
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000049d1c60
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000049c3688
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x007f93f6929d48
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000049b2ce8
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed   in 702798ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:16:37 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 366ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000004a73100
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000004a39180
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004a260f8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004a0e110
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000049ea508
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000049e2448
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000049dbc60
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000049b2338
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000499d000
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004985bd0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000049543c8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004937890
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000491bd20
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000490fe08
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000048fec98
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000048e63a0
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000048b3248
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000048a3488
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000048a0918
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004884088
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004854518
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004839c68
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004804360
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000047c3f40
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000047c0c50
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000047a3b78
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004751d78
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000474a910
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000473c950
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000471d0a0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000047053d8
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed 500 Internal Server Error in 8112ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for #<Google::Apis::CalendarV3::Event:0x00000004a39180>):
+  app/controllers/api_controller.rb:129:in `block (2 levels) in remove'
+  app/controllers/api_controller.rb:127:in `each'
+  app/controllers/api_controller.rb:127:in `block in remove'
+  app/controllers/api_controller.rb:140:in `remove'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.3ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:18:00 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 443ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000003e73b48
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000003e3be50
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003e24f98
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003e0e950
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003ddac68
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003dc15d8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003d97698
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003d7e3c8
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003d4b4a0
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003d330d0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003cf7008
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003ceb550
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003ce8e18
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003c5b568
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003c508c0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003c484b8
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003c39800
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003c2bc28
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003c28af0
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003c1a748
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003c09c90
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003c01540
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003bf0c90
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003be8310
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003be00c0
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003bd3550
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003bc9870
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003bc1850
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003bac450
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003b99e18
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003b92320
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed   in 74950ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:19:23 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 353ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000003f5af70
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000003f0a5e8
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003ef2290
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003e7afb0
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003e6a2a0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003e60ea8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003e58fa0
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003e4b558
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003e406d0
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003e33ed0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003e21320
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003e139a0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003e138d8
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003e01ef8
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003df2138
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003deac58
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003ddad08
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003dd1e88
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003dca3b8
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003dc21e0
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003db0198
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003da89c0
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003d990d8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003d8b988
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003d83f58
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003d7afc0
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000307b798
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003067d60
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003034c08
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002fde808
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002fc9188
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed   in 122702ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:21:33 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 372ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000004a07900
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x000000049ed870
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000049c6db0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000049c5078
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004998ac8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004970b68
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004955958
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004944c98
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000049009a8
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000048f8e10
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000048d81d8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000048c4868
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004899f00
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000048861f8
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000048703d0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000484c318
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000483e498
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000482ad08
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004828968
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000480ad00
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000047d6a00
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000047ca958
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000047b26a0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004799420
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004792490
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004770bb0
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000047427d8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004736d48
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000470fc98
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000046e9a98
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000046d9710
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 359ms>
+Success - #<Google::Apis::CalendarV3::Events:0x000000030cfe10
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466387641857000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000001feafa0
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003012108
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002ff1480
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000002f8e5d8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002f4ab80
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002f357f8
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000002ef1878
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000002e91590
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002e5c070
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000002db42a8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000244bdd8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000237f968
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000002328d70
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000024a87e0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000246afa8
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000023eab00
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002388d88
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002354bc8
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000002309650
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000002298018
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000226de08
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000001a2b3f8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000195cf58
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000177c580
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000013a1d70
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000196cb88
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000018d77b8
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000019e9d40
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002264100
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002236bd8
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 01:54:01 +0000>
+
+Completed   in 266797ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-19 23:26:09 -0300
+Processing by ApiController#remove as HTML
+Completed   in 666783ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:37:58 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected ':', expecting '}'
+  summary: 'Google I/O 2015',
+          ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:87: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:91: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:98: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:102: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'email', 'minutes: 24 * 60},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'popup', 'minutes: 10},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:177: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:85: syntax error, unexpected ':', expecting '}'
+  app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:87: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:91: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:98: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:102: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:107: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:177: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (6.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (99.7ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:38:56 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected =>, expecting '}'
+  :summary =>'Google I/O 2015',
+             ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:87: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:91: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:98: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:102: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'email', 'minutes: 24 * 60},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'popup', 'minutes: 10},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:177: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:85: syntax error, unexpected =>, expecting '}'
+  app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:87: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:91: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:98: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:102: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:107: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:177: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (4.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.8ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:39:18 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected =>, expecting '}'
+  :summary =>'Google I/O 2015',
+             ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:87: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:91: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:98: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:102: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'email', 'minutes: 24 * 60},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'popup', 'minutes: 10},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:177: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:85: syntax error, unexpected =>, expecting '}'
+  app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:87: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:91: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:98: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:102: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:107: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:107: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:177: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (104.6ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:40:22 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:84: syntax error, unexpected ':', expecting '}'
+...:CalendarV3::Event.new{summary: 'Google I/O 2015',
+...                               ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:84: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:90: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:94: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:97: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:101: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'email', 'minutes: 24 * 60},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'popup', 'minutes: 10},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:176: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:84: syntax error, unexpected ':', expecting '}'
+  app/controllers/api_controller.rb:84: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:90: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:94: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:97: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:101: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:105: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:176: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (63.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (107.0ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:41:05 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected ':', expecting '}'
+  start: {
+        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:88: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:92: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:99: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:103: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'email', 'minutes: 24 * 60},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:103: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:103: syntax error, unexpected tIDENTIFIER, expecting '}'
+      {method' => 'email', 'minutes: 24 * 60},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:104: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      {method' => 'popup', 'minutes: 10},
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:104: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                        ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:104: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      {method' => 'popup', 'minutes: 10},
+                                   ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:174: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:85: syntax error, unexpected ':', expecting '}'
+  app/controllers/api_controller.rb:88: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:92: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:95: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:99: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:103: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:103: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:103: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:104: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:104: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:104: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:174: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (34.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.1ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:43:42 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:84: syntax error, unexpected ':', expecting '}'
+      summary: 'Google I/O 2015',
+              ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:84: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:90: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:94: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:97: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:101: syntax error, unexpected ',', expecting '}'
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+          {method' => 'email', 'minutes: 24 * 60},
+                  ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+          {method' => 'email', 'minutes: 24 * 60},
+                            ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+          {method' => 'email', 'minutes: 24 * 60},
+                                       ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+          {method' => 'popup', 'minutes: 10},
+                  ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          {method' => 'popup', 'minutes: 10},
+                            ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          {method' => 'popup', 'minutes: 10},
+                                       ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:178: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:84: syntax error, unexpected ':', expecting '}'
+  app/controllers/api_controller.rb:84: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:85: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:86: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:90: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:94: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:97: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:101: syntax error, unexpected ',', expecting '}'
+  app/controllers/api_controller.rb:105: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/api_controller.rb:106: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:178: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (78.8ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:44:07 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+          {method' => 'email', 'minutes: 24 * 60},
+                  ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          {method' => 'email', 'minutes: 24 * 60},
+                            ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          {method' => 'email', 'minutes: 24 * 60},
+                                       ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:105: syntax error, unexpected '}', expecting keyword_end
+          {method' => 'email', 'minutes: 24 * 60},
+                                                 ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          {method' => 'popup', 'minutes: 10},
+                            ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          {method' => 'popup', 'minutes: 10},
+                                       ^
+/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:178: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:105: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:105: syntax error, unexpected '}', expecting keyword_end
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:106: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/api_controller.rb:178: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (76.4ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:46:03 -0300
+
+SyntaxError (/home/doge/integracion/t4_integra/app/controllers/api_controller.rb:171: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/api_controller.rb:171: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (25.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (93.1ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:46:41 -0300
+Processing by ApiController#create as HTML
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `insert_event' for #<ApiController:0x00000003c2fda0>):
+  app/controllers/api_controller.rb:106:in `create'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (36.2ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (73.2ms)
+
+
+Started GET "/api/create" for ::1 at 2016-06-19 23:47:01 -0300
+Processing by ApiController#create as HTML
+Sending HTTP post https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?
+403
+#<Hurley::Response POST https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events == 403 (208 bytes) 429ms>
+Caught error insufficientPermissions: Insufficient Permission
+Error - #<Google::Apis::ClientError: insufficientPermissions: Insufficient Permission>
+
+Completed 500 Internal Server Error in 956ms (ActiveRecord: 0.0ms)
+
+Google::Apis::ClientError (insufficientPermissions: Insufficient Permission):
+  app/controllers/api_controller.rb:106:in `create'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.6ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-20 01:38:55 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 435ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000005737d78
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466397380839000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x0000000571fe80
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000005701638
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000056de7a0
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000056c3f90
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000056c0688
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000056a2020
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000005689cf0
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000565ad10
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005646f18
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005604528
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000055db718
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000055d84f0
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000559f510
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000005565248
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000555ac30
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000055235f0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000055125c0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000054f6a00
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000054e01b0
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000054a9278
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000054916a0
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005458df0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000005429fa0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000540dff8
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000053d70e8
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000053c40d8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000053acb68
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005385310
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000005368530
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000053516a0
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 04:36:20 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 402ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000002a77108
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466397380839000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000003c22358
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003c56ea0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003c4d3c8
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003ca3368
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003c5d340
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003cfee70
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003d75f20
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003dd3b98
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003db94a0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003e58230
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003ed1e28
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003ea84b0
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000003f2d0c0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000003fe6908
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003fbf9c0
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004038aa0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003ffc370
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004066d60
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000040f91d8
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000041870f0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004159a10
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000041b5f90
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000422fea8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004210850
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004272af0
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004302470
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000043c6aa0
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000050d16a0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000050c1660
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000050e8990
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 04:36:20 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 435ms>
+Success - #<Google::Apis::CalendarV3::Events:0x00000005653498
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466397380839000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000005695028
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000056689d8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000056c93c8
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005709c70
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000056dab78
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005732ee0
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000005722270
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000057585f0
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005740c20
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005768cc0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000057b0d40
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000578d7a0
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000057bea58
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000057f9180
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000057e9e88
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000058018a8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000005834dc0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005822a08
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000005851b50
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000005844810
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000058918b8
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000005858400
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000058a7550
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000058d33f8
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000058ca140
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000059147e0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000058df7c0
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000594c4d8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000592c318
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000005975658
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 04:36:20 +0000>
+
+Completed   in 213870ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-20 01:42:40 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (4583 bytes) 354ms>
+Success - #<Google::Apis::CalendarV3::Events:0x000000043548d8
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466397380839000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000004311ec0
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000042f83a8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000042ddaf8
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000042b90e0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004295820
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000428ec50
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004285bc8
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000425ef28
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000424fbe0
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000042130c8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000420b850
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000042092f8
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000042004f0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000041da8b8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000041c7380
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000041b81a0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004188018
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004180fe8
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004174b80
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000413abb0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000041329d8
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000410f7d0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000040f3c10
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000040f1730
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000040e8810
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000040bc698
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000409dba8
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000407e578
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004062008
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004046380
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 04:36:20 +0000>
+
+Sending HTTP post https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?
+200
+#<Hurley::Response POST https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events == 200 (1055 bytes) 663ms>
+Success - #<Google::Apis::CalendarV3::Event:0x00000002c9ac28
+ @created=Mon, 20 Jun 2016 04:43:04 +0000,
+ @creator=
+  #<Google::Apis::CalendarV3::Event::Creator:0x00000002c01398
+   @email="tecuatrointegra@gmail.com">,
+ @description="A chance to hear more about Google's developer products.",
+ @end=
+  #<Google::Apis::CalendarV3::EventDateTime:0x00000002bc2508
+   @date_time=Tue, 28 Jun 2016 20:00:00 -0400,
+   @time_zone="America/Santiago">,
+ @etag="\"2932795569450000\"",
+ @html_link=
+  "https://www.google.com/calendar/event?eid=aGhydDBsY29qY2x0djR1b2cyZWdmM3NjYXNfMjAxNjA2MjhUMTYwMDAwWiBhdnY4cWE2Y3E4NDA2MHIzbmQydGV1c3Nsc0Bn",
+ @i_cal_uid="hhrt0lcojcltv4uog2egf3scas@google.com",
+ @id="hhrt0lcojcltv4uog2egf3scas",
+ @kind="calendar#event",
+ @location="800 Howard St., San Francisco, CA 94103",
+ @organizer=
+  #<Google::Apis::CalendarV3::Event::Organizer:0x00000002b30dd8
+   @display_name="integracion",
+   @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+   @self=true>,
+ @recurrence=["RRULE:FREQ=DAILY;COUNT=2"],
+ @reminders=
+  #<Google::Apis::CalendarV3::Event::Reminders:0x00000002abdd88
+   @use_default=true>,
+ @sequence=0,
+ @start=
+  #<Google::Apis::CalendarV3::EventDateTime:0x00000002a82cb0
+   @date_time=Tue, 28 Jun 2016 12:00:00 -0400,
+   @time_zone="America/Santiago">,
+ @status="confirmed",
+ @summary="Google I/O 2015",
+ @updated=Mon, 20 Jun 2016 04:43:04 +0000>
+
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (7091 bytes) 407ms>
+Success - #<Google::Apis::CalendarV3::Events:0x0000000260dae0
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466397784807000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x00000001b47c78
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000019e60c8
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000141dce0
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x0000000129a3f0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000011332c8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000110c290
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000000f3bda8
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000000f81e98
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000127e240
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000013106b8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000001295e90
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000001420fa8
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000001abc678
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000025aaa30
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000001bdc328
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000025eaea0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000025b8d88
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002645d78
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000026b2978
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000270f510
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000026f8db0
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000027358f0
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000027b1d60
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000278c4c0
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000002825080
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000002889da0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002837550
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000028a7850
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000029a0450
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000297a7c8
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000029df038
+    @created=Mon, 20 Jun 2016 04:43:04 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000002a26280
+      @email="tecuatrointegra@gmail.com">,
+    @description="A chance to hear more about Google's developer products.",
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002a87260
+      @date_time=Tue, 28 Jun 2016 20:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @etag="\"2932795569450000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=aGhydDBsY29qY2x0djR1b2cyZWdmM3NjYXNfMjAxNjA2MjhUMTYwMDAwWiBhdnY4cWE2Y3E4NDA2MHIzbmQydGV1c3Nsc0Bn",
+    @i_cal_uid="hhrt0lcojcltv4uog2egf3scas@google.com",
+    @id="hhrt0lcojcltv4uog2egf3scas_20160628T160000Z",
+    @kind="calendar#event",
+    @location="800 Howard St., San Francisco, CA 94103",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000002ad8db8
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @original_start_time=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002b6bdc0
+      @date_time=Tue, 28 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @recurring_event_id="hhrt0lcojcltv4uog2egf3scas",
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002b2f258
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002be6d40
+      @date_time=Tue, 28 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @status="confirmed",
+    @summary="Google I/O 2015",
+    @updated=Mon, 20 Jun 2016 04:43:04 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000002b800e0
+    @created=Mon, 20 Jun 2016 04:43:04 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000002bfc190
+      @email="tecuatrointegra@gmail.com">,
+    @description="A chance to hear more about Google's developer products.",
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002c6f820
+      @date_time=Wed, 29 Jun 2016 20:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @etag="\"2932795569450000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=aGhydDBsY29qY2x0djR1b2cyZWdmM3NjYXNfMjAxNjA2MjlUMTYwMDAwWiBhdnY4cWE2Y3E4NDA2MHIzbmQydGV1c3Nsc0Bn",
+    @i_cal_uid="hhrt0lcojcltv4uog2egf3scas@google.com",
+    @id="hhrt0lcojcltv4uog2egf3scas_20160629T160000Z",
+    @kind="calendar#event",
+    @location="800 Howard St., San Francisco, CA 94103",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000002cc9410
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @original_start_time=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000002d931c0
+      @date_time=Wed, 29 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @recurring_event_id="hhrt0lcojcltv4uog2egf3scas",
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000002d594e8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003a97ce0
+      @date_time=Wed, 29 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @status="confirmed",
+    @summary="Google I/O 2015",
+    @updated=Mon, 20 Jun 2016 04:43:04 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Mon, 20 Jun 2016 04:43:04 +0000>
+
+Completed   in 148360ms (ActiveRecord: 0.0ms)
