@@ -225,6 +225,7 @@ DEPENDENCIES
   http
   jbuilder (~> 2.0)
   jquery-rails
+  json
   pg (= 0.17.1)
   rails (= 4.2.6)
   rails_12factor
