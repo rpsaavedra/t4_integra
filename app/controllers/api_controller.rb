@@ -155,7 +155,7 @@ end
 
 Slack.configure do |config|
   config.token = totoken
-  config.token = "xoxb-52247322450-Rr3nmV74dtS0zs6EDAv1GR8O"
+  
 end
 
 
