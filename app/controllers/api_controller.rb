@@ -118,7 +118,7 @@ end
     end
   
 
-  def add
+  def add(nombre, fecha)
     #scopes =  ['https://www.googleapis.com/auth/calendar']
     #authorization = Google::Auth.get_application_default("https://www.googleapis.com/auth/calendar")
 
@@ -130,15 +130,15 @@ end
     service = Google::Apis::CalendarV3::CalendarService.new
     service.authorization = authorize
     event = Google::Apis::CalendarV3::Event.new(
-      summary: 'Google I/O 2015',
+      summary: nombre,
       location: '800 Howard St., San Francisco, CA 94103',
       description: 'A chance to hear more about Google\'s developer products.',
       start: {
-        date_time: '2016-06-28T09:00:00-07:00',
+        date: "" + fecha ,
         time_zone: 'America/Santiago',
       },
       end: {
-        date_time: '2016-06-28T17:00:00-07:00',
+        date: "" + fecha ,
         time_zone: 'America/Santiago',
       },
       recurrence: [
@@ -157,7 +157,6 @@ end
 
     Slack.configure do |config|
       config.token = ENV['TOKEN_SLACK']
-     
       
       
     end
@@ -171,12 +170,14 @@ end
 
 
     client.on :message do |data|
-      
+      texto=data['text']
+      nombre= texto.split(' ')[1]
+      fecha= texto.split(' ')[3]
+
 
       case data['text']
       when 'eventos?' then
         eventos = algo()
-        puts "hahahah"
         eventos.each do |ev|
           start = ev.start.date || ev.start.date_time
           hola= "- #{ev.summary} (#{start})"
@@ -184,19 +185,19 @@ end
         end
       when 'url?' then
         client.message channel: data['channel'], text: "<@#{data['user']}>, https://calendar.google.com/calendar/embed?src=avv8qa6cq84060r3nd2teussls%40group.calendar.google.com&ctz=America/Santiago"
-      when 'crear' then
-        add
-        client.message channel: data['channel'], text: " <@#{data['user']}>, Listoco"
+      when /^crear/ then
+  
+        add(nombre, fecha)
+        client.message channel: data['channel'], text: " <@#{data['user']}>, Evento agregado "
       when /^bot/ then
-
+   
         client.message channel: data['channel'], text: "Sorry <@#{data['text']}>, what?"
       end
     end
 
-    puts "aaaaaaaaaaaaaaaaaa"
 
     client.start!
-    puts "oooooooooooooooooooooooooollllllllllllllllll"
+    
   end
 
 
