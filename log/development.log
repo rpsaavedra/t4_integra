@@ -8766,3 +8766,325 @@ Success - #<Google::Apis::CalendarV3::Events:0x00000003e83b38
  @updated=Tue, 21 Jun 2016 19:01:17 +0000>
 
 Completed   in 49365ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/remove" for ::1 at 2016-06-22 00:15:23 -0300
+Processing by ApiController#remove as HTML
+Sending HTTP get https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true
+200
+#<Hurley::Response GET https://www.googleapis.com/calendar/v3/calendars/avv8qa6cq84060r3nd2teussls%40group.calendar.google.com/events?maxResults=10&orderBy=startTime&singleEvents=true == 200 (9599 bytes) 599ms>
+Success - #<Google::Apis::CalendarV3::Events:0x000000046af500
+ @access_role="owner",
+ @default_reminders=[],
+ @description="Este es un calendario público",
+ @etag="\"1466535677629000\"",
+ @items=
+  [#<Google::Apis::CalendarV3::Event:0x0000000465cb70
+    @created=Mon, 20 Jun 2016 01:54:01 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000046334f0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000046305e8
+      @date="2016-06-18">,
+    @etag="\"2932775283366000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=OW52aWlzcHV0ZG5kbzkzMzNtNHNnNWQxNmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="9nviisputdndo9333m4sg5d16g@google.com",
+    @id="9nviisputdndo9333m4sg5d16g",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004611648
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004601720
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000045ed888
+      @date="2016-06-17">,
+    @status="confirmed",
+    @summary="jajajaja",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:54:01 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000045b7d00
+    @created=Fri, 17 Jun 2016 03:53:54 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000045a8df0
+      @display_name="Rodrigo Saavedra",
+      @email="rpsaavedra@uc.cl">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000045a23d8
+      @date="2016-06-18">,
+    @etag="\"2932271268904000\"",
+    @hangout_link=
+     "https://plus.google.com/hangouts/_/calendar/YXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.q1qgok4muo8fusmifpf1g9j2f4",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=cTFxZ29rNG11bzhmdXNtaWZwZjFnOWoyZjQgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="q1qgok4muo8fusmifpf1g9j2f4@google.com",
+    @id="q1qgok4muo8fusmifpf1g9j2f4",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004581958
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x0000000455f3f8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000455c608
+      @date="2016-06-18">,
+    @status="confirmed",
+    @updated=Fri, 17 Jun 2016 03:53:54 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x000000045569b0
+    @created=Mon, 20 Jun 2016 01:07:13 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000451a5a0
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004507d88
+      @date="2016-06-20">,
+    @etag="\"2932769666452000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=Ym5vaDZvNnJkMWQ5dGxncWI2bmdxaDVsYjggYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="bnoh6o6rd1d9tlgqb6ngqh5lb8@google.com",
+    @id="bnoh6o6rd1d9tlgqb6ngqh5lb8",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000044d7570
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000044c6c98
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000044b36e8
+      @date="2016-06-19">,
+    @status="confirmed",
+    @summary="evento xddd",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:13 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004494e00
+    @created=Mon, 20 Jun 2016 01:07:24 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000447f410
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000447d0e8
+      @date="2016-06-21">,
+    @etag="\"2932769689368000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=NGhjN3E0bmFudmdrcmVkcjlrMWdoZ2xhdmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="4hc7q4nanvgkredr9k1ghglavg@google.com",
+    @id="4hc7q4nanvgkredr9k1ghglavg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000004442448
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004431ad0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004423098
+      @date="2016-06-20">,
+    @status="confirmed",
+    @summary="evento xddd 2",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:24 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004406a10
+    @created=Mon, 20 Jun 2016 01:07:48 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000043e9190
+      @email="tecuatrointegra@gmail.com">,
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000043d4dd0
+      @date="2016-06-22">,
+    @etag="\"2932769737464000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=MmxvYTVxYWhlbWo0OGQ4OTltN2QxaTF0cmcgYXZ2OHFhNmNxODQwNjByM25kMnRldXNzbHNAZw",
+    @i_cal_uid="2loa5qahemj48d899m7d1i1trg@google.com",
+    @id="2loa5qahemj48d899m7d1i1trg",
+    @kind="calendar#event",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000043a5620
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004367870
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004343f38
+      @date="2016-06-21">,
+    @status="confirmed",
+    @summary="evento xd loool 3",
+    @transparency="transparent",
+    @updated=Mon, 20 Jun 2016 01:07:48 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004339bf0
+    @created=Mon, 20 Jun 2016 06:06:29 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000042f9708
+      @email="tecuatrointegra@gmail.com">,
+    @description="A chance to hear more about Google's developer products.",
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000042d0380
+      @date_time=Tue, 28 Jun 2016 20:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @etag="\"2932805578524000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=M3VuOHZvYmdmN2JxZml0amNxNDgzNGVqOGtfMjAxNjA2MjhUMTYwMDAwWiBhdnY4cWE2Y3E4NDA2MHIzbmQydGV1c3Nsc0Bn",
+    @i_cal_uid="3un8vobgf7bqfitjcq4834ej8k@google.com",
+    @id="3un8vobgf7bqfitjcq4834ej8k_20160628T160000Z",
+    @kind="calendar#event",
+    @location="800 Howard St., San Francisco, CA 94103",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000042bd280
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @original_start_time=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000429aa28
+      @date_time=Tue, 28 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @recurring_event_id="3un8vobgf7bqfitjcq4834ej8k",
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000004282018
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004272f78
+      @date_time=Tue, 28 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @status="confirmed",
+    @summary="Google I/O 2015",
+    @updated=Mon, 20 Jun 2016 06:06:29 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004243728
+    @created=Mon, 20 Jun 2016 04:43:04 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x0000000420ecf8
+      @email="tecuatrointegra@gmail.com">,
+    @description="A chance to hear more about Google's developer products.",
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000041f73f0
+      @date_time=Tue, 28 Jun 2016 20:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @etag="\"2932795569450000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=aGhydDBsY29qY2x0djR1b2cyZWdmM3NjYXNfMjAxNjA2MjhUMTYwMDAwWiBhdnY4cWE2Y3E4NDA2MHIzbmQydGV1c3Nsc0Bn",
+    @i_cal_uid="hhrt0lcojcltv4uog2egf3scas@google.com",
+    @id="hhrt0lcojcltv4uog2egf3scas_20160628T160000Z",
+    @kind="calendar#event",
+    @location="800 Howard St., San Francisco, CA 94103",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000041b8358
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @original_start_time=
+     #<Google::Apis::CalendarV3::EventDateTime:0x0000000418f700
+      @date_time=Tue, 28 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @recurring_event_id="hhrt0lcojcltv4uog2egf3scas",
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000041721a0
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000041566d0
+      @date_time=Tue, 28 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @status="confirmed",
+    @summary="Google I/O 2015",
+    @updated=Mon, 20 Jun 2016 04:43:04 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x00000004127330
+    @created=Mon, 20 Jun 2016 06:06:29 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x000000041105b8
+      @email="tecuatrointegra@gmail.com">,
+    @description="A chance to hear more about Google's developer products.",
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004100e10
+      @date_time=Wed, 29 Jun 2016 20:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @etag="\"2932805578524000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=M3VuOHZvYmdmN2JxZml0amNxNDgzNGVqOGtfMjAxNjA2MjlUMTYwMDAwWiBhdnY4cWE2Y3E4NDA2MHIzbmQydGV1c3Nsc0Bn",
+    @i_cal_uid="3un8vobgf7bqfitjcq4834ej8k@google.com",
+    @id="3un8vobgf7bqfitjcq4834ej8k_20160629T160000Z",
+    @kind="calendar#event",
+    @location="800 Howard St., San Francisco, CA 94103",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x000000040b3e80
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @original_start_time=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000040b0a28
+      @date_time=Wed, 29 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @recurring_event_id="3un8vobgf7bqfitjcq4834ej8k",
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x000000040863b8
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x000000040673f0
+      @date_time=Wed, 29 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @status="confirmed",
+    @summary="Google I/O 2015",
+    @updated=Mon, 20 Jun 2016 06:06:29 +0000>,
+   #<Google::Apis::CalendarV3::Event:0x0000000404c578
+    @created=Mon, 20 Jun 2016 04:43:04 +0000,
+    @creator=
+     #<Google::Apis::CalendarV3::Event::Creator:0x00000004020798
+      @email="tecuatrointegra@gmail.com">,
+    @description="A chance to hear more about Google's developer products.",
+    @end=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000004004c28
+      @date_time=Wed, 29 Jun 2016 20:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @etag="\"2932795569450000\"",
+    @html_link=
+     "https://www.google.com/calendar/event?eid=aGhydDBsY29qY2x0djR1b2cyZWdmM3NjYXNfMjAxNjA2MjlUMTYwMDAwWiBhdnY4cWE2Y3E4NDA2MHIzbmQydGV1c3Nsc0Bn",
+    @i_cal_uid="hhrt0lcojcltv4uog2egf3scas@google.com",
+    @id="hhrt0lcojcltv4uog2egf3scas_20160629T160000Z",
+    @kind="calendar#event",
+    @location="800 Howard St., San Francisco, CA 94103",
+    @organizer=
+     #<Google::Apis::CalendarV3::Event::Organizer:0x00000003faf188
+      @display_name="integracion",
+      @email="avv8qa6cq84060r3nd2teussls@group.calendar.google.com",
+      @self=true>,
+    @original_start_time=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003f2f550
+      @date_time=Wed, 29 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @recurring_event_id="hhrt0lcojcltv4uog2egf3scas",
+    @reminders=
+     #<Google::Apis::CalendarV3::Event::Reminders:0x00000003f25348
+      @use_default=true>,
+    @sequence=0,
+    @start=
+     #<Google::Apis::CalendarV3::EventDateTime:0x00000003f1c810
+      @date_time=Wed, 29 Jun 2016 12:00:00 -0400,
+      @time_zone="America/Santiago">,
+    @status="confirmed",
+    @summary="Google I/O 2015",
+    @updated=Mon, 20 Jun 2016 04:43:04 +0000>],
+ @kind="calendar#events",
+ @summary="integracion",
+ @time_zone="America/Santiago",
+ @updated=Tue, 21 Jun 2016 19:01:17 +0000>
+
+Completed   in 99496ms (ActiveRecord: 0.0ms)

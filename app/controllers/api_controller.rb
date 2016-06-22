@@ -87,7 +87,7 @@ end
     token_store = Google::Auth::Stores::FileTokenStore.new(file: CREDENTIALS_PATH)
     authorizer = Google::Auth::UserAuthorizer.new(
       client_id, SCOPE, token_store)
-    user_id = 'loolff'
+    user_id = 'liiro'
     credentials = authorizer.get_credentials(user_id)
   if credentials.nil?
     
@@ -157,6 +157,7 @@ end
 
     Slack.configure do |config|
       config.token = ENV['TOKEN_SLACK']
+     
       
       
     end
