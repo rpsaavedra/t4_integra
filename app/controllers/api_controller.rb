@@ -16,7 +16,7 @@ APPLICATION_NAME = 'Google Calendar API Ruby Quickstart'
 CLIENT_SECRETS_PATH = 'client_secret.json'
 CREDENTIALS_PATH = File.join(Dir.home, '.credentials',
                              "calendar-ruby-quickstart.yaml")
-SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR_READONLY
+SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR
 
 def authorize
   FileUtils.mkdir_p(File.dirname(CREDENTIALS_PATH))
@@ -25,7 +25,7 @@ def authorize
   token_store = Google::Auth::Stores::FileTokenStore.new(file: CREDENTIALS_PATH)
   authorizer = Google::Auth::UserAuthorizer.new(
     client_id, SCOPE, token_store)
-  user_id = 'loolff'
+  user_id = 'liiro'
   credentials = authorizer.get_credentials(user_id)
   if credentials.nil?
     url = authorizer.get_authorization_url(
@@ -38,6 +38,8 @@ def authorize
     credentials = authorizer.get_and_store_credentials_from_code(
       user_id: user_id, code: code, base_url: OOB_URI)
   end
+  puts "kik kik ik"
+  puts "kik kik ik"
   credentials
 end
 
@@ -105,7 +107,7 @@ end
       @algo= "listo" 
     end
   end
-  credentials
+  
   
     end
 
@@ -153,45 +155,47 @@ end
   def remove
     require "slack"
 
-Slack.configure do |config|
-  config.token = ENV['TOKEN_SLACK']
-  
-end
-
-
-client = Slack::RealTime::Client.new
-
-client.on :hello do
-  puts 'Successfully connected.'
-end
-
-
-client.on :message do |data|
-  
-
-  case data['text']
-  when 'eventos?' then
-    eventos = algo()
-    puts "hahahah"
-    eventos.each do |ev|
-      start = ev.start.date || ev.start.date_time
-      hola= "- #{ev.summary} (#{start})"
-      client.message channel: data['channel'], text: "<@#{data['user']}>! :"+hola
+    Slack.configure do |config|
+      config.token = ENV['TOKEN_SLACK']
+      
+      
     end
-  when 'url?' then
-    client.message channel: data['channel'], text: "<@#{data['user']}>, https://calendar.google.com/calendar/embed?src=avv8qa6cq84060r3nd2teussls%40group.calendar.google.com&ctz=America/Santiago"
-  when 'crear' then
-    add
-    client.message channel: data['channel'], text: " <@#{data['user']}>, Listoco"
-  when /^bot/ then
-    client.message channel: data['channel'], text: "Sorry <@#{data['user']}>, what?"
-  end
-end
 
-puts "aaaaaaaaaaaaaaaaaa"
 
-client.start!
-puts "oooooooooooooooooooooooooollllllllllllllllll"
+    client = Slack::RealTime::Client.new
+
+    client.on :hello do
+      puts 'Successfully connected.'
+    end
+
+
+    client.on :message do |data|
+      
+
+      case data['text']
+      when 'eventos?' then
+        eventos = algo()
+        puts "hahahah"
+        eventos.each do |ev|
+          start = ev.start.date || ev.start.date_time
+          hola= "- #{ev.summary} (#{start})"
+          client.message channel: data['channel'], text: "<@#{data['user']}>! :"+hola
+        end
+      when 'url?' then
+        client.message channel: data['channel'], text: "<@#{data['user']}>, https://calendar.google.com/calendar/embed?src=avv8qa6cq84060r3nd2teussls%40group.calendar.google.com&ctz=America/Santiago"
+      when 'crear' then
+        add
+        client.message channel: data['channel'], text: " <@#{data['user']}>, Listoco"
+      when /^bot/ then
+
+        client.message channel: data['channel'], text: "Sorry <@#{data['text']}>, what?"
+      end
+    end
+
+    puts "aaaaaaaaaaaaaaaaaa"
+
+    client.start!
+    puts "oooooooooooooooooooooooooollllllllllllllllll"
   end
 
 
